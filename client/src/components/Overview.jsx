@@ -5,7 +5,7 @@ import ProductImage from './overview/ProductImage';
 import ProductInfo from './overview/ProductInfo';
 import PriceTag from './overview/PriceTag';
 import SizeAndQuantity from './overview/SizeAndQuantity';
-import config from '../../../config';
+import config from 'Config';
 import StyleGrid from './overview/StyleGrid';
 
 export default function Overview({ productId }) {

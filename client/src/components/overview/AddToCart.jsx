@@ -3,7 +3,7 @@ import { BsTwitter, BsFacebook, BsInstagram } from 'react-icons/bs';
 import React, { useState } from 'react';
 import axios from 'axios';
 import Alert from './Alert';
-import config from '../../../../config';
+import config from 'Config';
 
 export default function AddToCart({ sizeId, count }) {
   const [success, trigger] = useState(false);

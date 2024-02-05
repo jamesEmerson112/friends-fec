@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import Modal from './Modal.jsx';
 import Stars from './Stars.jsx';
-import config from '../../../../config.js';
+import config from 'Config';
 import { AiOutlineStar } from 'react-icons/ai';
 import { GrFormNext, GrFormPrevious } from 'react-icons/gr';
 

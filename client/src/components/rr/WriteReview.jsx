@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { submitReview } from './api';
 import StarRating from './StarRating';
-import config from '../../../../config';
+import config from 'Config';
 import { postImage } from './api';
 import { debounce } from './utility';
 import { AiFillCloseSquare } from 'react-icons/ai';
@@ -340,7 +340,7 @@ function WriteReview({ characteristics, productID, setSubmittedReview }) {
                       const parent = target.parentElement;
                       parent.innerHTML = `Edit Upload: ${target.files[0].name || ''}`; //target.files[0].name;
                       parent.appendChild(target);
-                      
+
                     }}
                     />
                     Upload Photo

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import RelatedProducts from './RC/RelatedProducts.jsx'
 import YourOutfit from './RC/YourOutfit.jsx'
-import config from '../../../config.js'
+import config from 'Config'
 import { AiOutlineStar } from 'react-icons/ai';
 
 const RelatedAndComparison = ({productID, setProductId}) => {

@@ -38,7 +38,7 @@ Run the development server with `npm run client-dev`, and open browse to
 
 ## Contributing Changes
 
-Make sure to create a `config.js` file in the root directory! It will need to
+Make sure to create a `Config` file in the root directory! It will need to
 have your GitHub API key added. E.g. `API: "<your key here>"`. Import this into
 your component for use with axios :)
 

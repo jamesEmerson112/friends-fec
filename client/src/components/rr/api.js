@@ -1,5 +1,5 @@
 import axios from 'axios';
-import config from '../../../../config';
+import config from 'Config';
 import { logError } from './utility';
 
 const serverURL = 'https://app-hrsei-api.herokuapp.com/api/fec2/rfp/reviews';
@@ -76,7 +76,7 @@ export const markHelpful = (reviewID) => axios.put(
   .catch((err) => logError('Error marking review as helpful:', err));
 export const submitReview = (data) => (
   axios.post(
-    serverURL, 
+    serverURL,
     data,
     {
       headers: {

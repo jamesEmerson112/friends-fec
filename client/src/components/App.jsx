@@ -6,7 +6,7 @@ import QuestionsAndAnswers from './QuestionsAndAnswers';
 import RelatedAndComparison from './RelatedAndComparison';
 import Overview from './Overview';
 import ReviewsAndRatings from './ReviewsAndRatings';
-import config from '../../../config';
+import config from 'Config';
 import { logError } from './rr/utility';
 import clickTracker from './clickTracker';
 

@@ -1,5 +1,5 @@
 const axios = require('axios');
-const config = require('../../../../config.js');
+const config = require('Config');
 
 const Axios = axios.create({
   baseURL: 'https://app-hrsei-api.herokuapp.com/api/fec2/rfp/qa/questions',

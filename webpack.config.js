@@ -14,7 +14,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|jsx)?/,
-        exclude: [/node_modules/, /test/],
+        include: [SRC_DIR],
         use: {
           loader: "babel-loader",
           options: {
@@ -36,6 +36,10 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx'],
+    alias: {
+      // This assumes your `config.js` file is in the `src` directory
+      Config: path.resolve(__dirname, '/client/src/config.js'),
+    }
   },
   devServer: {
     static: {
